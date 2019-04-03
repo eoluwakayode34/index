@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XYZ: Stationaries</title>
+    <link rel="stylesheet" href="C:\DISTINCT\web development\web folder\css\xyx.css">
+    <link rel="stylesheet" href="css\slick-theme.css">
+    <link rel="stylesheet" href="css\slick.css">
+    <link rel="favicon" href="https://img.icons8.com/pastel-glyph/64/000000/pen.png">
+</head>
+<body>
+    <header>
+        <h1>  XYZ <span>Stationaries</span></h1>
+    </header>
+
+    <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                 <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">OUR SERVICES</a></li>
+                   <li><a href="#">CONTACT</a></li>
+               
+            </ul>
+        </nav>
+
+    <section class="thing overflow">
+       <figure>
+           <img src="image\stationery.jpg" alt="stationery image">
+       </figure>
+       <figure>
+        <img src="image\stationery-2.jpg" alt="stationery image">
+    </figure>
+    </section>
+
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="js/slick.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.thing').slick({
+                dots: true,
+                arrow: false,
+                autoplay: true,
+                autoplaySpeed: 1000
+            });
+        });
+    </script>
+</body>
+</html>
